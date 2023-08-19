@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Type Juice - Unison Pro Bold Italic.otf",
+      "sha1": "cc4f5c025f7d11a76c23d0d333bf9a950a03ac8f"
+    },
+    {
+      "path": "assets/fonts/Type Juice - Unison Pro Bold Round Italic.otf",
+      "sha1": "a01aed811d35235332462f1d07ef7d853ae5ba29"
+    },
+    {
+      "path": "assets/fonts/Type Juice - Unison Pro Bold Round.otf",
+      "sha1": "b7eb9e9b70873837413bb4516bebac80461bd676"
+    },
+    {
+      "path": "assets/fonts/Type Juice - Unison Pro Bold.otf",
+      "sha1": "c0505bfeff4ae153e6318232a52f01163461e150"
+    },
+    {
+      "path": "assets/fonts/Type Juice - Unison Pro Light Italic.otf",
+      "sha1": "157ee490f72d9f2d59ca48c7d992103fe017b037"
+    },
+    {
+      "path": "assets/fonts/Type Juice - Unison Pro Light Round Italic.otf",
+      "sha1": "f66bec73d10b170c1935ceb0d4dc82cf967baf4c"
+    },
+    {
+      "path": "assets/fonts/Type Juice - Unison Pro Light Round.otf",
+      "sha1": "d360430897935de982b625c64027233aced4e4ec"
+    },
+    {
+      "path": "assets/fonts/Type Juice - Unison Pro Light.otf",
+      "sha1": "2bc62662860c800bf40e2ff55adca6d167f1fff0"
+    }
+  ]
+}
