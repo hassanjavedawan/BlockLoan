@@ -4,6 +4,7 @@ import {HStack, ScrollView} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import {useWalletConnectModal} from '@walletconnect/modal-react-native';
 
+
 const Login = ({navigation}) => {
   const {open, isConnected} = useWalletConnectModal();
 

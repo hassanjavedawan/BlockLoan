@@ -42,6 +42,7 @@ export const handelDeposit = async ({web3Provider, method}, amount) => {
 };
 
 export const handelBorrow = async ({web3Provider, method}, address) => {
+  console.log('handelBorrow. ===>', address);
   if (!web3Provider) {
     throw new Error('web3Provider not connected');
   }

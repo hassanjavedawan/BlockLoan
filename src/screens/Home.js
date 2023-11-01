@@ -22,7 +22,7 @@ import {handelBorrow, handelDeposit} from '../util/MethodUtil';
 import {RequestModal} from '../components/RequestModal';
 
 const Home = ({navigation}) => {
-  const {isConnected, provider, open} = useWalletConnectModal();
+  const {isConnected, provider, open,address} = useWalletConnectModal();
 
   const [modalVisible, setModalVisible] = useState(false);
   const [modalVisible1, setModalVisible1] = useState(false);
@@ -37,7 +37,7 @@ const Home = ({navigation}) => {
     }
     return open();
   };
-
+console.log("user Address => ",address);
   //  blockchain action
   const [rpcResponse, setRpcResponse] = useState();
   const [rpcError, setRpcError] = useState();
@@ -85,6 +85,8 @@ const Home = ({navigation}) => {
   };
 
   const getBorrowAction = (method, rpcRequest) => async () => {
+  console.log('handelBorrow. 2 ===>', account);
+
     if (!web3Provider) {
       return;
     }
@@ -94,7 +96,7 @@ const Home = ({navigation}) => {
     setModalShow(true);
     try {
       setLoading(true);
-      if (!amount) {
+      if (!account) {
         throw new Error('No account found');
       }
       const result = await rpcRequest({web3Provider, method}, account);

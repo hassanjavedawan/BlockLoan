@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     SplashScreen.hide();
   }, []);
-  const projectId = 'b014e603b69a5ac004e7bd6918655dd1';
+  const projectId = '';
 
   const providerMetadata = {
     name: 'BlockLoan',
